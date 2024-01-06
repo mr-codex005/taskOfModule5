@@ -19,7 +19,7 @@
   border-radius: 0.3125rem;
   transition: all 0.5s;
 }
-.btn:hover{
+.btn:hover {
   scale: 105%;
 }
 .texts {
@@ -49,7 +49,6 @@ header {
   font-size: 4rem;
   font-weight: 700;
 }
-
 
 .header-items {
   padding-top: 13.5rem;
@@ -115,65 +114,65 @@ header {
 
   font-weight: 500;
 }
-.third-heading{
+.third-heading {
   color: #151414;
   font-size: 1.875rem;
-font-weight: 700;
-margin: 1.5rem 0;
+  font-weight: 700;
+  margin: 1.5rem 0;
 }
 
-.image-section{
+.image-section {
   margin: 8.5rem 8%;
-  background-image: url("../image/gradient1.png");
+  background-image: url("../image/gradient1.png"), url("../image/watch.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 0.5rem;
 }
 
-.text-box{
-  padding: 3.6rem ;
+.text-box {
+  padding: 3.6rem;
   max-width: 40%;
 }
 
-.text-box h3{
+.text-box h3 {
   color: #fff;
 }
 
-.text-box button{
+.text-box button {
   margin-top: 1.5rem;
 }
 
 /* footer section */
-footer{
+footer {
   background-color: #151414;
   color: #fff;
   display: flex;
   justify-content: space-between;
   padding: 8.12rem 13%;
 }
-footer section{
+footer section {
   max-width: 50%;
 }
 
-footer .btn{
+footer .btn {
   background-color: #005fac;
   color: #fff;
 }
 
-footer .secondary-heading{
+footer .secondary-heading {
   color: #fff;
 }
 
-footer input{
+footer input {
   padding: 1.3rem 3rem;
   background: transparent;
   border-radius: 0.5rem;
-  margin: 1.5rem  0;
+  margin: 1.5rem 0;
   color: #fff;
   font-weight: 800;
 }
 
-footer .social img{
+footer .social img {
   margin-right: 1.5rem;
 }
