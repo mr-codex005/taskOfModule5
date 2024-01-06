@@ -1,0 +1,175 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common css */
+.btn {
+  padding: 1rem 1.5rem;
+  color: #005fac;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3125rem;
+}
+.texts {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin: 1.5rem 0;
+}
+
+.secondary-heading {
+  color: #151414;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* main css */
+
+header {
+  background-image: url("../image/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.main-heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
+.header-items {
+  padding-top: 13.5rem;
+  padding-right: 7rem;
+  padding-left: 50%;
+  color: #fff;
+  /* max-width: 50%; */
+  padding-bottom: 10.4rem;
+}
+
+.header-items .texts {
+  padding-left: 5rem;
+}
+
+/* achivment section */
+
+.achivments {
+  display: flex;
+  margin: 8.75rem;
+  margin-left: 15%;
+  align-items: center;
+  justify-content: space-between;
+}
+.act {
+  color: #444343;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  margin-bottom: 1rem;
+}
+
+.achivments ul {
+  padding-left: 2rem;
+}
+
+.achivments ul li {
+  color: #444343;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  list-style-image: url("../image/check\ 1.png");
+}
+
+.achiv {
+  margin-left: 5.4rem;
+  padding-top: 13rem;
+}
+
+/* plans section  */
+
+.plans {
+  text-align: center;
+}
+.skills-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.13rem;
+  gap: 5.2rem;
+}
+.fourth-heading {
+  color: #737272;
+  font-size: 1.5625rem;
+
+  font-weight: 500;
+}
+.third-heading{
+  color: #151414;
+  font-size: 1.875rem;
+font-weight: 700;
+margin: 1.5rem 0;
+}
+
+.image-section{
+  margin: 8.5rem 8%;
+  background-image: url("../image/gradient1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.text-box{
+  padding: 3.6rem ;
+  max-width: 40%;
+}
+
+.text-box h3{
+  color: #fff;
+}
+
+.text-box button{
+  margin-top: 1.5rem;
+}
+
+/* footer section */
+footer{
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 8.12rem 13%;
+}
+footer section{
+  max-width: 50%;
+}
+
+footer .btn{
+  background-color: #005fac;
+  color: #fff;
+}
+
+footer .secondary-heading{
+  color: #fff;
+}
+
+footer input{
+  padding: 1.3rem 3rem;
+  background: transparent;
+  border-radius: 0.5rem;
+  margin: 1.5rem  0;
+  color: #fff;
+  font-weight: 800;
+}
+
+footer .social img{
+  margin-right: 1.5rem;
+}
